@@ -39,7 +39,9 @@ import tensorflow as tf
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from keras.models import Sequential, Model, model_from_json
-from keras.layers.normalization import BatchNormalization
+
+
+from keras.layers import BatchNormalization
 from keras.layers.embeddings import Embedding
 from keras.layers import Dense, LSTM, SpatialDropout1D, Activation, Conv1D, MaxPooling1D, Input, concatenate
 from keras.utils.np_utils import to_categorical

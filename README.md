@@ -201,3 +201,6 @@ https://www.overleaf.com/read/xvtrrfpvzwhf
 	</a><br /><a href="https://github.com/maelfabien/Multimodal-Emotion-Recognition/commits?author=STF-R" title="Code">💻</a></td>
 
 </tr></table>
+
+
+Additional(For Linux): Download python-opencv, cmake, dlib
