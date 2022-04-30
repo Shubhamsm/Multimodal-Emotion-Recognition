@@ -1,3 +1,7 @@
 WORDS,FREQ
-hello,1
-happy,1
+know,2
+wo,1
+easy,1
+also,1
+get,2
+take,1

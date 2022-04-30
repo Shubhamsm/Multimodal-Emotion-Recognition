@@ -40,7 +40,7 @@ class speechEmotionRecognition:
     '''
     Voice recording function
     '''
-    def voice_recording(self, filename, duration=5, sample_rate=16000, chunk=1024, channels=1):
+    def voice_recording(self, filename, duration=5, sample_rate=12000, chunk=1024, channels=1):
 
         # Start the audio recording stream
         p = pyaudio.PyAudio()
@@ -89,7 +89,7 @@ class speechEmotionRecognition:
     '''
     Mel-spectogram computation
     '''
-    def mel_spectrogram(self, y, sr=16000, n_fft=512, win_length=256, hop_length=128, window='hamming', n_mels=128, fmax=4000):
+    def mel_spectrogram(self, y, sr=12000, n_fft=512, win_length=256, hop_length=128, window='hamming', n_mels=128, fmax=4000):
 
         # Compute spectogram
         mel_spect = np.abs(librosa.stft(y, n_fft=n_fft, window=window, win_length=win_length, hop_length=hop_length)) ** 2
@@ -176,7 +176,7 @@ class speechEmotionRecognition:
     '''
     Predict speech emotion over time from an audio file
     '''
-    def predict_emotion_from_file(self, filename, chunk_step=16000, chunk_size=49100, predict_proba=False, sample_rate=16000):
+    def predict_emotion_from_file(self, filename, chunk_step=12000, chunk_size=49100, predict_proba=False, sample_rate=8000):
 
         # Read audio file
         y, sr = librosa.core.load(filename, sr=sample_rate, offset=0.5)

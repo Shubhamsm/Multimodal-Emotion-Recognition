@@ -7,11 +7,17 @@
 
   </head>
   <body>
-    <a href="/">
-      <img src = "/static/CSS/images/text_head.png" width="100%">
-    </a>
+    <!--<a href="/">-->
+      <!--<img src = "/static/CSS/images/text_head.png" width="100%">-->
+    <!--</a>-->
+    
+    
 
 {% block body %}
+
+    <div  style="font-size:30px">
+        Text  &nbsp; Analysis
+    </div>
 
 <br>
 
@@ -22,7 +28,7 @@
 
 
   <blockquote>
-    <p class="quotation"> Tell us about the last time you showed leadership.</p>
+    <p class="quotation"> Tell us something to analyse.</p>
   </blockquote> 
 
   <form action="/text_1" method="post">
@@ -34,7 +40,7 @@
  <div class="column" id="left-col" align="center">
 <form action="text_pdf" method="post" enctype="multipart/form-data">
     <blockquote>
-    <p class="quotation"> Or upload your Cover Letter : </p>
+    <p class="quotation"> Or upload your file : </p>
   </blockquote> 
   <br><br>
     <input type="file" name="file"><br><br>
@@ -50,7 +56,6 @@
  <br>
     <br>
     <br>
-    <a href="/rules">How does it work ?</a>
     <br>
     <br>
     <form>

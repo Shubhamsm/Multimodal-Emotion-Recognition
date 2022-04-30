@@ -118,7 +118,7 @@ def show_webcam() :
     predictor_landmarks  = dlib.shape_predictor("Models/face_landmarks.dat")
     
     #Lancer la capture video
-    video_capture = cv2.VideoCapture(0)
+    video_capture = cv2.VideoCapture(-1)
 
     while True:
         # Capture frame-by-frame

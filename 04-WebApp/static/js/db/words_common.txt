@@ -45,10 +45,10 @@ algorithm,4.0
 algorithmic,4.0
 allow,10.0
 already,2.0
-also,26.0
+also,30.0
 always,6.0
 among,4.0
-analysis,4.0
+analysis,5.0
 analytical,4.0
 anatomy,2.0
 anomaly,2.0
@@ -73,8 +73,9 @@ bachelor,4.0
 band,4.0
 bank,30.0
 barrault,2.0
-base,6.0
+base,7.0
 basic,2.0
+beautiful,1.0
 become,4.0
 beginning,2.0
 belief,4.0
@@ -156,6 +157,7 @@ customize,2.0
 cut,2.0
 data,10.0
 dauphine,4.0
+day,2.0
 dbldn,2.0
 de,2.0
 dear,12.0
@@ -198,6 +200,7 @@ duty,2.0
 e,8.0
 earlier,4.0
 early,2.0
+easy,4.0
 economic,2.0
 ecosystem,5.0
 edge,2.0
@@ -257,7 +260,7 @@ generale,4.0
 genetics,2.0
 geneva,2.0
 geospatial,2.0
-get,4.0
+get,12.0
 github,8.0
 give,4.0
 global,6.0
@@ -269,7 +272,7 @@ grab,2.0
 graduate,14.0
 graph,8.0
 gratify,4.0
-great,2.0
+great,3.0
 group,20.0
 growth,6.0
 guideline,2.0
@@ -279,7 +282,7 @@ happy,23.0
 hard,6.0
 hear,2.0
 hec,2.0
-hello,36.0
+hello,37.0
 help,2.0
 hesitate,2.0
 high,6.0
@@ -342,7 +345,7 @@ keep,6.0
 kera,2.0
 key,4.0
 kingdom,2.0
-know,4.0
+know,12.0
 knowledge,8.0
 l,6.0
 laboratory,2.0
@@ -383,6 +386,8 @@ madam,6.0
 mailto,4.0
 main,2.0
 maintain,4.0
+major,1.0
+make,1.0
 manager,6.0
 mandatory,4.0
 many,6.0
@@ -489,7 +494,7 @@ professional,4.0
 program,4.0
 programme,4.0
 progress,20.0
-project,64.0
+project,65.0
 promising,4.0
 provide,6.0
 public,2.0
@@ -549,6 +554,7 @@ secure,2.0
 seek,6.0
 selective,4.0
 self,2.0
+sentimental,1.0
 september,8.0
 series,2.0
 service,6.0
@@ -596,7 +602,7 @@ synergy,4.0
 synonymous,2.0
 system,2.0
 tackle,2.0
-take,28.0
+take,32.0
 talented,4.0
 task,2.0
 taste,4.0
@@ -653,6 +659,7 @@ way,6.0
 welcome,2.0
 well,8.0
 willing,4.0
+wo,4.0
 word,2.0
 work,71.0
 working,2.0
