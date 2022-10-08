@@ -141,7 +141,7 @@ def gen():
     # Timer
     global k
     k = 0
-    max_time = 15
+    max_time = 10000
     start = time.time()
     
     angry_0 = []
@@ -185,7 +185,10 @@ def gen():
             shape = face_utils.shape_to_np(shape)
             
             # Zoom on extracted face
-            face = zoom(face, (shape_x / face.shape[0],shape_y / face.shape[1]))
+            if(face.shape[0]!=0 and face.shape[1]!=0):
+                face = zoom(face, (shape_x / face.shape[0],shape_y / face.shape[1]))
+            else:
+                continue
             
             # Cast type float
             face = face.astype(np.float32)

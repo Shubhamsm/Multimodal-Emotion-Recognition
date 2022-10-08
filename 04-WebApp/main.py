@@ -233,7 +233,7 @@ def audio_dash():
 
     # Predict emotion in voice at each time step
     step = 1 # in sec
-    sample_rate = 16000 # in kHz
+    sample_rate = 14000 # in kHz
     emotions, timestamp = SER.predict_emotion_from_file(rec_sub_dir, chunk_step=step*sample_rate)
 
     # Export predicted emotions to .txt format

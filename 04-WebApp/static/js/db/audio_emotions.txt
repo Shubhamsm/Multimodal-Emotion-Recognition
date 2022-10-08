@@ -1,6 +1,7 @@
 EMOTIONS
-Sad
 Disgust
-Fear
-Fear
-Fear
+Disgust
+Disgust
+Disgust
+Disgust
+Disgust
